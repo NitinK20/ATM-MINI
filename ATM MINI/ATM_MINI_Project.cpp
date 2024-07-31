@@ -64,13 +64,13 @@ public: // public member function
             mobile_no = Mob_new;
             cout << endl
                  << "Successfully Updated Mobile No. ";
-            _getch();
+            _getch();  // _getch() by conio.h used to held the screen
         }
         else
         {
             cout << endl
                  << "Incorrect  !!! Old Mobile No. ";
-            _getch();
+            _getch();   // _getch() by conio.h used to held the screen
         }
     }
 
